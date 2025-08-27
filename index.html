@@ -1,167 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My_CV</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mykhailo Saveliev | QA Engineer</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!--Main container-->
-    <div class="main-container">
-        <!-- My content section -->
-        <div class="my-content-section">
-            <!--About me section-->
-            <div class="about-me-section">
-                <h1 class="about-my-name">Mykhailo Saveliev</h1>
-                <h2 class="about-me">Junior QA Engineer</h2>
-                <p class="about-my-p"><b class="about-me">Goals:</b> Work in a QA Engineer position to realize your knowledge and professional growth.
-            </div>
-            
-            <!-- My work experience -->
-            <div class="my-work-section">
-                <h3>Work Experience</h3>
-
-                <!-- Company 3 -->
-                <div>
-                    <h4>Trainee in Test Team NOW: </h4>
-                    <p>September 2021 - September 2021   |   Ukraine, Kiev</p>
-                    <ul>
-                        <li>Testing mobile applications on Android. </li>
-                        <li>Using Trello for creating Kanban Board in our work.</li>      
-                        <li>Creating test cases in TestRail.</li>
-                        <li>Creating Bug Reports in Jira.</li>
-                        <li>Remote daily progress reports.</li>
-                    </ul>
-                </div>
-
-                <!-- Company 2 -->
-                <div>
-                    <h4>Trainee QA Practicum in SkillUp</h4>
-                    <p>May 2021 - August 2021   |   Ukraine, Kiev</p>
-                    <ul>
-                        <li>Testing web applications and websites.</li>
-                        <li>Testing of mobile applications.</li>
-                        <li>Writing test documentation Checklists, test cases, bug reports.</li>
-                        <li>Working with: TestRail, Jira</li>
-                        <li>Creating SQL queries</li>
-                        <li>Using Chrome Developer Tools when working with websites.</li>
-                    </ul>
-                </div>
-
-                <!-- Company 1 -->
-                <div>
-                    <h4>System Administrator in Lugansk Energy Association LLC</h4>
-                    <p>2002 - 2014   |   Ukraine Lugansk</p>
-                    <ul>
-                        <li>Technical support of computer networks.</li>
-                        <li>Work with databases.</li>
-                        <li>Consultation and training of users.</li>
-                        <li>Software installation and support.</li>
-                    </ul>
-                </div>
-            </div>
-                
-            <!-- My work Education -->
-            <div class="my-education-section">
-                <h3>Education</h3>
-                <p>from May 2021 to August 2021   |   Ukraine, Kiev</p>
-                <p> <b>SkillUp educational center of IT specialists</b></p>
-                <p>QA Courses: preparatory course (HTML, CSS, SQL);<br>
-                Basic course (QA).</p>
-                <br>
-                
-                <p>1996 – 2005:   |   Ukraine, Kharkiv</p>
-                <p> <b>National Technical University «Kharkov Polytechnic Institute»</b></p>
-                <p><b>Department:</b> of Automation and Control in Technical Systems<br>
-                <b>Specialization: </b>"Computerized control systems and automation"</p>
-                
-            </div>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#top">Mykhailo Saveliev</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="nav" class="collapse navbar-collapse">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
+        </ul>
+        <span class="navbar-text text-light tagline">
+          Manual QA Engineer (Web & Desktop) | Automation Beginner (Playwright+JS)
+        </span>
+        <div class="ms-auto">
+            <a href="assets/Mykhailo_Saveliev_CV.pdf" class="btn btn-outline-light" target="_blank">
+                <i class="bi bi-file-earmark-pdf"></i> Open PDF CV
+            </a>
         </div>
-
-        <!-- Sidebar section -->
-        <aside class="my-aside-section">
-            <img src="img/horse.jpg" alt="" class="img-aside">
-
-            <!-- Contacts -->
-            <div class="my-contact-section">
-                <h3 class="sidebar-title">Contacts</h3>
-                <div>
-                    <span class="contacts-section-type">Phone:</span>
-                    <a href="tel:+380992076011" class="contacts-section-link">+38(099)207-60-11</a>
-                </div>
-                <div>
-                    <span class="contacts-section-type">E-mail:</span>
-                    <a href="mailto:michael.savelev@gmail.com" class="contacts-section-link">michael.savelev@gmail.com</a>
-                </div>
-                <div>
-                    <span class="contacts-section-type">Telegram:</span>
-                    <a href="tg:@Mikhail_Savelev" class="contacts-section-link">@Mikhail_Savelev</a>
-                </div>
-                <div>
-                    <span class="contacts-section-type">LinkedIn:</span>
-                    <a href="http://linkedin.com/in/mykhailo-saveliev" class="contacts-section-link" target="_blank">linkedin.com/in/mykhailo-saveliev</a>
-                </div>
-                <div>
-                    <span class="contacts-section-type">Git:</span>
-                    <a href="https://krushmor.github.io/My_CV/" class="contacts-section-link" target="_blank">github</a>
-                </div>
-            </div>
-
-            <!-- Tech skills section -->
-            <div class="my-skill-section">
-                <h3 class="sidebar-title">Tech Skills</h3>
-                <ul class="tech-skills-list">
-                    <li class="tech-skill-item"><span class="tech-skill-item-text">Test documentation</span></li>
-                    <li class="tech-skill-item"><span class="tech-skill-item-text">Software Life cycle</span></li>
-                    <li class="tech-skill-item"><span class="tech-skill-item-text">Bug Life cycle</span></li>
-                    <li class="tech-skill-item"><span class="tech-skill-item-text">SQL</span></li>
-                    <li class="tech-skill-item"><span class="tech-skill-item-text">HTML, CSS</span></li>
-                    <li class="tech-skill-item"><span class="tech-skill-item-text">TestRail </span></li>
-                    <li class="tech-skill-item"><span class="tech-skill-item-text">Jira</span></li>
-                    <li class="tech-skill-item"><span class="tech-skill-item-text">Trello</span></li>
-                    <li class="tech-skill-item"><span class="tech-skill-item-text">Worked with Windows, Linux, MacOS</span></li>
-                </ul>
-            </div>
-
-            <!-- Soft skills section -->
-            <div class="my-soft-skill-section">
-                <h3 class="sidebar-title">Soft Skills</h3>
-                <ul class="soft-skill-list">
-                    <li class="soft-skill-item"><span class="soft-skill-item-text">Need for development</span></li>
-                    <li class="soft-skill-item"><span class="soft-skill-item-text">Desire to learn</span></li>
-                    <li class="soft-skill-item"><span class="soft-skill-item-text">Teamwork</span></li>
-                    <li class="soft-skill-item"><span class="soft-skill-item-text">Activity, creativity</span></li>
-                    <li class="soft-skill-item"><span class="soft-skill-item-text">Stress resistance</span></li>
-                    <li class="soft-skill-item"><span class="soft-skill-item-text">Self-discipline</span></li>
-                </ul>
-            </div>
-
-            <!-- Language section -->
-            <div class="my-language-section">
-                <h3 class="sidebar-title">Language</h3>
-                <ul class="language-list">
-                    <li class="language-item"><span class="language-item-text">Russian - trying to forget it<span></li>
-                    <li class="language-item"><span class="language-item-text">Ukranian - Advansed</span></li>
-                    <li class="language-item"><span class="language-item-text">English: Pre-Intermediate in the learning process</span></li>
-                </ul>
-            </div>
-
-            <!-- Hobbies section -->
-            <div class="my-hobbi-section">
-                <h3 class="sidebar-title">Hobbies</h3>
-                <ul class="hobbi-list">
-                    <li class="hobbi-item"><span class="hobbi-item-text">Tennis</span></li>
-                    <li class="hobbi-item"><span class="hobbi-item-text">Swimming</span></li>
-                    <li class="hobbi-item"><span class="hobbi-item-text">Cycling</span></li>
-                    <li class="hobbi-item"><span class="hobbi-item-text">Rollerblading</span></li>
-                </ul>
-            </div>
-        </aside>
+      </div>
     </div>
-    
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main class="container py-4">
+    <div class="row g-4">
+      <!-- LEFT COLUMN -->
+      <div class="col-lg-8 col-md-7 order-lg-1">
+        <!-- About / Goals -->
+        <section id="about" class="card shadow-sm mb-3">
+          <div class="card-body">
+            <h2 class="h4 mb-3">About</h2>
+            <p class="mb-0">
+              QA Engineer with 3+ years of experience in manual testing of web and desktop applications. Skilled in test case design, bug reporting, exploratory testing, and Agile collaboration. Currently growing automation skills with Playwright (JavaScript).
+            </p>
+          </div>
+        </section>
+
+        <!-- Work Experience -->
+        <h2 id="experience" class="h4 mt-2">Work Experience</h2>
+
+        <section class="card shadow-sm mb-2">
+          <div class="card-body">
+            <div class="d-flex justify-content-between flex-wrap gap-2">
+              <h3 class="h5 mb-0">QA Engineer — DCT</h3>
+              <span class="text-muted">May 2022 – Present · Kharkiv, Ukraine</span>
+            </div>
+            <ul class="mt-3 mb-0">
+              <li><i class="bi bi-bug list-icon"></i>Manual testing of desktop apps, web services, and VMs (Linux & Windows).</li>
+              <li><i class="bi bi-code-slash list-icon"></i>Developed & maintained automated tests (Playwright + JavaScript).</li>
+              <li><i class="bi bi-diagram-3 list-icon"></i>Traffic analysis & API testing with Fiddler and Postman.</li>
+              <li><i class="bi bi-cloud list-icon"></i>Experience with Microsoft Azure cloud infrastructure.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="card shadow-sm mb-2">
+          <div class="card-body">
+            <div class="d-flex justify-content-between flex-wrap gap-2">
+              <h3 class="h5 mb-0">Trainee QA Engineer — Test Team NOW</h3>
+              <span class="text-muted">September 2021 · Kyiv, Ukraine</span>
+            </div>
+            <ul class="mt-3 mb-0">
+              <li><i class="bi bi-phone list-icon"></i>Tested Android mobile applications.</li>
+              <li><i class="bi bi-kanban list-icon"></i>Maintained Kanban board in Trello.</li>
+              <li><i class="bi bi-clipboard-check list-icon"></i>Created test cases in TestRail; bug reports in Jira.</li>
+              <li><i class="bi bi-wifi list-icon"></i>Provided daily progress reports remotely.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="card shadow-sm mb-2">
+          <div class="card-body">
+            <div class="d-flex justify-content-between flex-wrap gap-2">
+              <h3 class="h5 mb-0">Trainee QA Engineer — SkillUp Practicum</h3>
+              <span class="text-muted">May 2021 – August 2021 · Kyiv, Ukraine</span>
+            </div>
+            <ul class="mt-3 mb-0">
+              <li><i class="bi bi-window list-icon"></i>Tested web applications, websites, and mobile apps.</li>
+              <li><i class="bi bi-journal-text list-icon"></i>Wrote checklists, test cases, and bug reports.</li>
+              <li><i class="bi bi-database list-icon"></i>Created SQL queries; used Chrome DevTools.</li>
+              <li><i class="bi bi-tools list-icon"></i>Worked with TestRail and Jira.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="card shadow-sm mb-4">
+          <div class="card-body">
+            <div class="d-flex justify-content-between flex-wrap gap-2">
+              <h3 class="h5 mb-0">System Administrator — Luhansk Energy Association LLC</h3>
+              <span class="text-muted">2002 – 2014 · Luhansk, Ukraine</span>
+            </div>
+            <ul class="mt-3 mb-0">
+              <li><i class="bi bi-hdd-network list-icon"></i>Maintained computer networks and databases.</li>
+              <li><i class="bi bi-person-gear list-icon"></i>Provided technical support and user training.</li>
+              <li><i class="bi bi-gear list-icon"></i>Installed and supported software systems.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Education -->
+        <h2 id="education" class="h4">Education</h2>
+
+        <section class="card shadow-sm mb-2">
+          <div class="card-body">
+            <div class="d-flex justify-content-between flex-wrap gap-2">
+              <h3 class="h6 mb-0">SkillUp IT Training Center</h3>
+              <span class="text-muted">May 2021 – August 2021 · Kyiv, Ukraine</span>
+            </div>
+            <p class="mb-0 mt-2">QA Courses: Preparatory (HTML, CSS, SQL); Basic QA.</p>
+          </div>
+        </section>
+
+        <section class="card shadow-sm mb-5">
+          <div class="card-body">
+            <div class="d-flex justify-content-between flex-wrap gap-2">
+              <h3 class="h6 mb-0">National Technical University “Kharkiv Polytechnic Institute”</h3>
+              <span class="text-muted">1996 – 2005 · Kharkiv, Ukraine</span>
+            </div>
+            <p class="mb-0 mt-2">Department: Automation and Control in Technical Systems. Specialization: Computerized Control Systems and Automation.</p>
+          </div>
+        </section>
+      </div>
+
+      <!-- RIGHT COLUMN (SIDEBAR) -->
+      <aside class="col-lg-4 col-md-5 order-lg-2">
+        <div class="sidebar-sticky">
+          <!-- Photo Card -->
+          <section class="card shadow-sm mb-2" id="contacts">
+            <div class="card-body">
+              <h2 class="h5 mb-3">Contacts</h2>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2"><i class="bi bi-telephone list-icon"></i><a href="tel:+380992076011" class="link-dark text-decoration-none"> +38 (099) 207-60-11</a></li>
+                <li class="mb-2"><i class="bi bi-envelope list-icon"></i><a href="mailto:michael.savelev@gmail.com" class="link-dark text-decoration-none"> michael.savelev@gmail.com</a></li>
+                <li class="mb-2"><i class="bi bi-telegram list-icon"></i><a href="https://t.me/Mikhail_Savelev" class="link-dark text-decoration-none" target="_blank" rel="noopener"> @Mikhail_Savelev</a></li>
+                <li class="mb-2"><i class="bi bi-whatsapp list-icon"></i> <a href="https://wa.me/380501234567" class="link-dark text-decoration-none" target="_blank" rel="noopener"> WhatsApp</a></li>
+                <li class="mb-2"><i class="bi bi-linkedin list-icon"></i><a href="https://linkedin.com/in/mykhailo-saveliev" class="link-dark text-decoration-none" target="_blank" rel="noopener"> linkedin.com/in/mykhailo-saveliev</a></li>
+                <li class="mb-0"><i class="bi bi-github list-icon"></i><a href="https://krushmor.github.io/My_CV/" class="link-dark text-decoration-none" target="_blank" rel="noopener"> GitHub Pages (old CV)</a></li>
+              </ul>
+            </div>
+          </section>
+
+          <!-- Tech Skills -->
+          <section class="card shadow-sm mb-2">
+            <div class="card-body">
+              <h2 class="h6 mb-3">Tech Skills</h2>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2"><i class="bi bi-journal-check list-icon"></i>Test documentation (checklists, test cases, bug reports)</li>
+                <li class="mb-2"><i class="bi bi-diagram-3 list-icon"></i>Software & Bug life cycle</li>
+                <li class="mb-2"><i class="bi bi-database list-icon"></i>SQL (basic queries)</li>
+                <li class="mb-2"><i class="bi bi-code-slash list-icon"></i>Playwright + JavaScript (automation beginner)</li>
+                <li class="mb-2"><i class="bi bi-hdd-stack list-icon"></i>Windows, Linux, macOS</li>
+                <li class="mb-0"><i class="bi bi-tools list-icon"></i>Jira, TestRail, Trello; Chrome DevTools; Postman; Fiddler</li>
+              </ul>
+            </div>
+          </section>
+
+          <!-- Soft Skills -->
+          <section class="card shadow-sm mb-2">
+            <div class="card-body">
+              <h2 class="h6 mb-3">Soft Skills</h2>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2"><i class="bi bi-graph-up list-icon"></i>Growth mindset</li>
+                <li class="mb-2"><i class="bi bi-people list-icon"></i>Teamwork</li>
+                <li class="mb-2"><i class="bi bi-lightbulb list-icon"></i>Creativity</li>
+                <li class="mb-0"><i class="bi bi-shield-check list-icon"></i>Stress resistance & self-discipline</li>
+              </ul>
+            </div>
+          </section>
+
+          <!-- Languages -->
+          <section class="card shadow-sm mb-2">
+            <div class="card-body">
+              <h2 class="h6 mb-3">Languages</h2>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2"><i class="bi bi-translate list-icon"></i>Ukrainian — Advanced</li>
+                <li class="mb-2"><i class="bi bi-translate list-icon"></i>English — Pre-Intermediate (learning)</li>
+                <li class="mb-0"><i class="bi bi-translate list-icon"></i>Russian — trying to forget</li>
+              </ul>
+            </div>
+          </section>
+
+          <!-- Hobbies -->
+          <section class="card shadow-sm">
+            <div class="card-body">
+              <h2 class="h6 mb-3">Hobbies</h4>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2">Tennis</li>
+                <li class="mb-2">Swimming</li>
+                <li class="mb-2">Cycling</li>
+                <li class="mb-2">Rollerblading</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-dark text-light text-center py-3">
+    © 2025 Mykhailo Saveliev
+  </footer>
+
+  <!-- Bootstrap Bundle JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
